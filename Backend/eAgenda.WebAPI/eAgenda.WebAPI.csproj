@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eAgenda.Aplicacao\eAgenda.Aplicacao.csproj" />
+    <ProjectReference Include="..\eAgenda.Dominio\eAgenda.Dominio.csproj" />
+    <ProjectReference Include="..\eAgenda.Infra.Configs\eAgenda.Infra.Configs.csproj" />
+    <ProjectReference Include="..\eAgenda.Infra.Orm\eAgenda.Infra.Orm.csproj" />
+  </ItemGroup>
+
+</Project>
